@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
-            ViewData["Greeting"] = _configuration["Greeting"];
+            ViewData["Greeting"] = _configuration["Greetings"];
             return View();
         }
 
